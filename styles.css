@@ -21,8 +21,9 @@ body{
     margin:auto;
     width:38%;
     background-color: var(--white);
-    margin-top:7rem;
+    margin-top:2rem;
     padding:2rem;
+    padding-bottom:0;
 }
 
 /* headings section */
@@ -31,6 +32,7 @@ body{
     display: inline-flex;
     width:100%;
     height:2.2rem;
+    margin-bottom:3%;
 }
 
 .head-contents{
@@ -56,7 +58,7 @@ body{
 
 #read{
     font-size:1rem;
-    margin-left:22rem;
+    margin-left:45%;
     margin-top:0.5rem;
     display:inline;
     color:var(--dark-grayish-blue);
@@ -65,5 +67,20 @@ body{
 
 /* activity section */
 .message-container{
+    display:flex;
+    margin-bottom:1%;
+}
+
+.unread{
     background-color:var(--very-light-grayish-blue);
+}
+
+.users{
+    height:3rem;
+    width:3rem;
+    margin:1.5rem;
+}
+
+.user-names{
+    font-weight:600;
 }
