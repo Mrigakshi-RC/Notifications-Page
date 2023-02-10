@@ -1,51 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Notifications page</title>
+    <title>Notifications page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+  <body>
+    <div class="notifications-container">
+      <div class="headings">
+        <h1 id="notifications" class="head-contents">Notifications</h1>
+        <h1 id="number" class="head-contents">3</h1>
+        <a href="/" id="read" class="head-contents">Mark all as read</a>
+      </div>
 
-  Notifications 3
+      <div class="activities">
+        <div class="message-container">
+          <p>
+            Mark Webber reacted to your recent post My first tournament today!
+          </p>
+          <p>1m ago</p>
+        </div>
 
-  Mark all as read
+        <div class="message-container">
+          <p>Angela Gray followed you</p>
+          <p>5m ago</p>
+        </div>
 
-  Mark Webber reacted to your recent post My first tournament today!
-  1m ago
+        <div class="message-container">
+          <p>Jacob Thompson has joined your group Chess Club</p>
+          <p>1 day ago</p>
+        </div>
 
-  Angela Gray followed you
-  5m ago
+        <div class="message-container">
+          <p>Rizky Hasanuddin sent you a private message</p>
+          <p>5 days ago</p>
+          <div class="message">
+            Hello, thanks for setting up the Chess Club. I've been a member for
+            a few weeks now and I'm already having lots of fun and improving my
+            game.
+          </div>
+        </div>
 
-  Jacob Thompson has joined your group Chess Club
-  1 day ago
+        <div class="message-container">
+          <p>Kimberly Smith commented on your picture</p>
+          <p>1 week ago</p>
+        </div>
 
-  Rizky Hasanuddin sent you a private message
-  5 days ago
-  Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
-  I'm already having lots of fun and improving my game.
+        <div class="message-container">
+          <p>
+            Nathan Peterson reacted to your recent post 5 end-game strategies to
+            increase your win rate
+          </p>
+          <p>2 weeks ago</p>
+        </div>
 
-  Kimberly Smith commented on your picture
-  1 week ago
-
-  Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
-  2 weeks ago
-
-  Anna Kim left the group Chess Club
-  2 weeks ago
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        <div class="message-container">
+          <p>Anna Kim left the group Chess Club</p>
+          <p>2 weeks ago</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

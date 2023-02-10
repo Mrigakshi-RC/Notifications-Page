@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+:root{
+    --red: hsl(1, 90%, 64%);
+    --blue: hsl(219, 85%, 26%);
+    --white: hsl(0, 0%, 100%);
+    --very-light-grayish-blue: hsl(210, 60%, 98%);
+    --light-grayish-blue-1: hsl(211, 68%, 94%);
+    --light-grayish-blue-2: hsl(205, 33%, 90%);
+    --grayish-blue: hsl(219, 14%, 63%);
+    --dark-grayish-blue: hsl(219, 12%, 42%);
+    --very-dark-blue: hsl(224, 21%, 14%);
+}
+
+body{
+    background-color: var(--very-light-grayish-blue);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.notifications-container{
+    margin:auto;
+    width:38%;
+    background-color: var(--white);
+    margin-top:7rem;
+    padding:2rem;
+}
+
+/* headings section */
+
+.headings{
+    display: inline-flex;
+    width:100%;
+    height:2.2rem;
+}
+
+.head-contents{
+    margin:0 20px 0 20px;
+}
+
+#notifications{
+    font-size:1.5rem;
+}
+
+#number{
+    font-size:1.2rem;
+    margin-top:4px;
+    margin-left:-10px;
+    background-color:var(--blue);
+    border-radius:0.5rem;
+    width:30px;
+    height: 1.4em;
+    text-align:center;
+    color:var(--white);
+    font-weight:500;
+}
+
+#read{
+    font-size:1rem;
+    margin-left:22rem;
+    margin-top:0.5rem;
+    display:inline;
+    color:var(--dark-grayish-blue);
+    text-decoration:none;
+}
+
+/* activity section */
+.message-container{
+    background-color:var(--very-light-grayish-blue);
+}
