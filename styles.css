@@ -70,6 +70,7 @@ body{
     display:flex;
     margin-bottom:1%;
     height:9vh;
+    color:var(--dark-grayish-blue);
 }
 
 .message-container:nth-of-type(4){
@@ -103,6 +104,8 @@ body{
 
 .user-names{
     font-weight:600;
+    text-decoration:none;
+    color:black;
 }
 
 .message{
@@ -116,14 +119,34 @@ body{
     text-decoration:none;
     height: 100%;
     width: 100%;
-    display:block;;
+    display:block;
 }
 
 .message-txt{
     width:28vw;
-    color:black;
+    color:var(--dark-grayish-blue);
     text-decoration:none;
     position:absolute;
     top:52vh;
     left:37.5vw;
+}
+
+a{
+    text-decoration:none;
+}
+
+.post-names,.group-names{
+    font-weight:600;
+}
+
+.post-names{
+    color:var(--dark-grayish-blue);
+}
+
+.group-names{
+    color:var(--blue);
+}
+
+strong{
+    color:var(--red);
 }
