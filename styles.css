@@ -169,3 +169,29 @@ a{
 strong{
     color:var(--red);
 }
+
+@media only screen and (max-width: 375px){
+    .notifications-container{
+        width:100%;
+        margin:0;
+        height:100%;
+        box-shadow:none;
+        border-radius:0;
+    }
+    .head-contents{
+        margin:0;
+    }
+    #read{
+        margin-left:20%;
+    }
+    #number{
+        margin-left:2%;
+    }
+    #notifications{
+        font-size:1.3rem;
+    }
+    .message-container{
+        height:18vh;
+        margin-bottom:3%;
+    }
+}
