@@ -21,9 +21,11 @@ body{
     margin:auto;
     width:38%;
     background-color: var(--white);
-    margin-top:2rem;
+    margin-top:2.5rem;
     padding:2rem;
     padding-bottom:0;
+    box-shadow:0 0 35px rgba(0,0,0,0.05);
+    border-radius:0.5rem;
 }
 
 /* headings section */
@@ -110,13 +112,12 @@ body{
 
 .message{
     border: solid 0.01rem var(--light-grayish-blue-2);
-    border-radius:0.2rem;
+    border-radius:0.4rem;
     height:55%;
     width:31vw;
 }
 
 .message-box{
-    text-decoration:none;
     height: 100%;
     width: 100%;
     display:block;
@@ -127,8 +128,10 @@ body{
     color:var(--dark-grayish-blue);
     text-decoration:none;
     position:absolute;
-    top:52vh;
-    left:37.5vw;
+    top:51.5vh;
+    left:36.1vw;
+    padding:15px 28px 17px 32px;
+    border-radius:0.4rem;
 }
 
 a{
@@ -137,6 +140,22 @@ a{
 
 .post-names,.group-names{
     font-weight:600;
+}
+
+.user-names:hover{
+    color:var(--blue);
+}
+.post-names:hover{
+    color:var(--blue);
+}
+#read:hover{
+    color:var(--blue);
+}
+.message-box:hover{
+    background-color:var(--light-grayish-blue-1);
+}
+.message-txt:hover{
+    background-color:var(--light-grayish-blue-1);
 }
 
 .post-names{
