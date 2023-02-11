@@ -73,7 +73,18 @@ body{
 }
 
 .message-container:nth-of-type(4){
-    height:17vh;
+    height:18vh;
+    margin-bottom:4%;
+}
+
+.message-container:nth-of-type(5){
+    display:flex;
+}
+
+.your-pic{
+    height:5vh;
+    margin-left:30%;
+    margin-top:3%;
 }
 
 .unread{
@@ -114,5 +125,5 @@ body{
     text-decoration:none;
     position:absolute;
     top:52vh;
-    left:37vw;
+    left:37.5vw;
 }
