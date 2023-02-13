@@ -13,5 +13,5 @@ What it does:
 
 Made with keeping the following widths in mind:
 
-- Desktop - 1440px
+- Desktop - 1440px × 991px
 - Mobile - 375px

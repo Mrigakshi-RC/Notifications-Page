@@ -21,7 +21,7 @@ body {
   margin: auto;
   width: 38vw;
   background-color: var(--white);
-  margin-top: 2.5rem;
+  margin-top: 4rem;
   padding: 2rem;
   padding-bottom: 0;
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.05);
@@ -47,11 +47,11 @@ body {
 
 #number {
   font-size: 1.2rem;
-  margin-top: 4px;
+  margin-top: 2px;
   margin-left: -10px;
   background-color: var(--blue);
   border-radius: 0.5rem;
-  width: 30px;
+  width: 36px;
   height: 1.4em;
   text-align: center;
   color: var(--white);
@@ -60,7 +60,7 @@ body {
 
 #read {
   font-size: 1rem;
-  margin-left: 45%;
+  margin-left: 31%;
   margin-top: 0.5rem;
   display: inline;
   color: var(--dark-grayish-blue);
@@ -128,12 +128,13 @@ body {
 
 .message-txt {
   width: 28vw;
+  height:6.4vh;
   color: var(--dark-grayish-blue);
   text-decoration: none;
   position: absolute;
-  top: 51.5vh;
-  left: 36.1vw;
-  padding: 15px 28px 17px 32px;
+  top: 51vh;
+  left: 37.5vw;
+  padding: 19px 28px 21px 22px;
   border-radius: 0.4rem;
 }
 
@@ -188,7 +189,7 @@ strong {
     margin: 0;
   }
   #read {
-    margin-left: 20%;
+    margin-left: 19%;
     margin-bottom: 0.03%;
   }
   #number {
@@ -212,7 +213,7 @@ strong {
   }
   .message-txt {
     width: 65vw;
-    top: 74vh;
+    top: 73.5vh;
     left: 23.1vw;
   }
   .users {
