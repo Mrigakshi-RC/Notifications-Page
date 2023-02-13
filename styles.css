@@ -174,7 +174,7 @@ strong {
   color: var(--red);
 }
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 375px) {
   .notifications-container {
     width: 100%;
     margin: 0;
