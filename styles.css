@@ -86,6 +86,9 @@ body {
 
 .your-pic {
   height: 5vh;
+}
+
+.pic-link {
   margin-left: 30%;
   margin-top: 3%;
 }
@@ -215,9 +218,11 @@ strong {
   .users {
     margin: 1rem;
   }
-  .your-pic {
+  .pic-link {
     margin-left: 5%;
     margin-top: 5%;
+  }
+  .your-pic {
     height: 6vh;
   }
   .message-container:nth-of-type(5) .activities {
