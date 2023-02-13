@@ -3,8 +3,8 @@ let markRead = document.querySelector("#read");
 let notifNum = document.querySelector("#number");
 
 resizeAdjust();
-
-function resizeAdjust(){
+//to adjust the placement of the message text in the fifth notification
+function resizeAdjust() {
   let messageBox = document.querySelector(".message-box");
   let messageText = document.querySelector(".message-txt");
   let coords = messageBox.getBoundingClientRect();
