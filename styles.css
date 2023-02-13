@@ -72,6 +72,7 @@ body {
   display: flex;
   margin-bottom: 1%;
   height: 9vh;
+  color: var(--dark-grayish-blue);
 }
 
 .message-container:nth-of-type(4) {
