@@ -22,7 +22,6 @@ for (let item of unreads) {
 }
 
 markRead.addEventListener("click", function () {
-  console.log("clicked");
   unreads.forEach(makeRead);
 });
 
