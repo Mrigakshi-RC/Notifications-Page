@@ -2,6 +2,18 @@ let unreads = document.querySelectorAll(".unread");
 let markRead = document.querySelector("#read");
 let notifNum = document.querySelector("#number");
 
+resizeAdjust();
+
+function resizeAdjust(){
+  let messageBox = document.querySelector(".message-box");
+  let messageText = document.querySelector(".message-txt");
+  let coords = messageBox.getBoundingClientRect();
+  messageText.style.left = coords.left + "px";
+  messageText.style.top = coords.top + "px";
+}
+
+window.addEventListener("resize", resizeAdjust);
+
 for (let item of unreads) {
   item.addEventListener("click", function myFunc() {
     makeRead(item);

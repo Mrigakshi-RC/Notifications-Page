@@ -84,8 +84,8 @@ body {
   display: flex;
 }
 
-.message-container:nth-of-type(5) .activities{
-  width:24vw;
+.message-container:nth-of-type(5) .activities {
+  width: 24vw;
 }
 
 .your-pic {
@@ -132,13 +132,11 @@ body {
 
 .message-txt {
   width: 28vw;
-  height:6.4vh;
+  height: 6.4vh;
   color: var(--dark-grayish-blue);
   text-decoration: none;
   position: absolute;
-  top: 51vh;
-  left: 37.5vw;
-  padding: 19px 28px 21px 22px;
+  padding: 16px 22px 18px 22px;
   border-radius: 0.4rem;
 }
 
@@ -217,8 +215,6 @@ strong {
   }
   .message-txt {
     width: 65vw;
-    top: 73.5vh;
-    left: 23.1vw;
   }
   .users {
     margin: 1rem;
