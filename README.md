@@ -11,7 +11,7 @@ What it does:
 
 ## Width
 
-Made with keeping following widths in mind:
+Made with keeping the following widths in mind:
 
 - Desktop - 1440px
 - Mobile - 375px
