@@ -1,4 +1,16 @@
-usename=document.querySelectorAll(".user-names");
-console.log(usename[0].innerText);
+let unreads=document.querySelectorAll(".unread");
+let markRead=document.querySelector("#read");
 
-//just testing
+for (let item of unreads){
+    item.addEventListener('click', function myFunc(event) {
+        removeBullet(item)
+        item.classList.remove('unread');
+        item.removeEventListener("click", myFunc);
+    })
+}
+
+function removeBullet(item){
+    let text=item.querySelector('.activity-text').querySelector('.activities');
+    let bullet=text.querySelector('.bullet');
+    bullet.remove();
+}
