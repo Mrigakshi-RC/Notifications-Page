@@ -19,7 +19,7 @@ body {
 
 .notifications-container {
   margin: auto;
-  width: 38%;
+  width: 38vw;
   background-color: var(--white);
   margin-top: 2.5rem;
   padding: 2rem;
