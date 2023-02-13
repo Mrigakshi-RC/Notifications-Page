@@ -84,12 +84,16 @@ body {
   display: flex;
 }
 
+.message-container:nth-of-type(5) .activities{
+  width:24vw;
+}
+
 .your-pic {
   height: 5vh;
 }
 
 .pic-link {
-  margin-left: 30%;
+  margin-left: 8%;
   margin-top: 3%;
 }
 
@@ -220,13 +224,13 @@ strong {
     margin: 1rem;
   }
   .pic-link {
-    margin-left: 5%;
+    margin-left: 3%;
     margin-top: 5%;
   }
   .your-pic {
     height: 6vh;
   }
   .message-container:nth-of-type(5) .activities {
-    max-width: 60vw;
+    width: 60vw;
   }
 }
