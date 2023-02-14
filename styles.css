@@ -60,7 +60,7 @@ body {
 
 #read {
   font-size: 1rem;
-  margin-left: 31%;
+  margin-left: auto;
   margin-top: 0.5rem;
   display: inline;
   color: var(--dark-grayish-blue);
